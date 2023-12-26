@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+openai = "*"
+pytube = "*"
+langchain = "*"
+python-dotenv = "*"
+streamlit = "*"
+streamlit-chat = "*"
+matplotlib = "*"
+langflow = "*"
+flask = "*"
+flask-cors = "*"
+pymongo = "*"
+requests = "*"
+user-agents = "*"
+black = "*"
+tldextract = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
